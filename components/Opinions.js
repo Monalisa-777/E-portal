@@ -2,9 +2,12 @@ import React from 'react'
 
 const Opinions = () => {
   return (
-    <div className=" grid lg:grid-cols-3 grid-cols-2 gap-30 mx-3 mt-6 ">
 
-    <div className="bg-white h-[60%] ">
+    <div className='h-full w-full text-5xl bg-white text-black mx-5 '>
+        <h1 className='font-serif bg-white text-black border border-b-black mx-5'><i>Opinions</i></h1>
+    <div className=" grid lg:grid-cols-3 grid-cols-2 gap-6 mx-2 mt-4  ">
+
+    <div className="bg-white h-[50%] ">
       <img src="https://d.newsweek.com/en/full/2249767/joe-biden-sworn.webp?w=790&f=a476ec01d8d437570e1a766057375ade" alt="Card 1 Image" class="w-full h-60"/>
       <div className="p-6">
         <p className="text-gray-600 text-xl font-serif"><b><i>"Don't Let Hunter's Plea Deal Distract From The Real Biden Problem":Ukraine.</i></b></p>
@@ -22,7 +25,7 @@ const Opinions = () => {
     </div>
 
 
-    <div className="bg-white h-[60%]">     
+    <div className="bg-white h-[50%]">     
       <div className="p-6">
         <p className="text-gray-600 text-xl font-serif"><b><i>"The India-US defence compact is an attempt to ensure respect for the sovereignty and territorial integrity of all states in the region".</i></b></p>
         <div className="w-full h-full pt-4 bg-white flex">
@@ -37,7 +40,7 @@ const Opinions = () => {
       </div>
 
 
-    <div className="bg-white h-[60%]">
+    <div className="bg-white h-[50%]">
       <img src="https://www.hindustantimes.com/ht-img/img/2023/06/20/550x309/air_india_1687272771271_1687272771486.jpg" alt="Card 2 Image" class="w-full h-[60%]"/>
       <div className="p-6">
         <p className="text-gray-600 text-xl font-serif"><b><i>"Happy to share that we have signed purchase agreements with @Airbus & @BoeingAirplanes today to add 470 new aircraft to enhance our fleet strength!"</i></b></p>
@@ -64,7 +67,7 @@ const Opinions = () => {
 
 
     
-    
+    </div>
   )
 }
 
